@@ -64,3 +64,6 @@
 
 ### Thanks
 Thanks to Remarkable for building such and amazing device.
+
+[![rm2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2)
+[![rmpp](https://img.shields.io/badge/rMPP-supported-green)](https://remarkable.com/store/overview/remarkable-paper-pro)
