@@ -12,6 +12,11 @@
 1. Clone the repository:
 2. Run `pip install -r requirements.txt`
 3. Provide the RSS-Feed link inside the code.
+4. Save the .json location and folder ID in a `.env` file as 
+```
+ SERVICE_ACCOUNT_FILE = ''
+ FOLDER_ID = '' 
+ ```
 4. Execute and check the code if it is generating a .txt file and .pdf file.
 
 ## Setting Up Google Services Account and Enabling Google Drive API
@@ -55,3 +60,7 @@
 7. In the "Program/script" box, enter the path to your Python executable (e.g., `C:\Python39\python.exe`).
 8. In the "Add arguments (optional)" box, enter the path to your script (e.g., `C:\path\to\remarkable-rss.py`).
 9. Click "Next," review your settings, and then click "Finish" to create the task.
+
+
+### Thanks
+Thanks to Remarkable for building such and amazing device.
