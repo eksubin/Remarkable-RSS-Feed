@@ -1,0 +1,6 @@
+feedparser
+beautifulsoup4
+python-dotenv
+fpdf
+google-api-python-client
+google-auth
