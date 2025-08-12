@@ -2,3 +2,7 @@
 malnewslive-3a033948568a.json
 NotoSansMalayalam-Regular.ttf
 *.pdf
+*.txt
+*.pkl
+debug.ipynb
+.gitignore
