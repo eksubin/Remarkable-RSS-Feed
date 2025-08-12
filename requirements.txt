@@ -4,3 +4,7 @@ python-dotenv
 fpdf
 google-api-python-client
 google-auth
+openai
+huggingface-hub
+smolagents
+smolagents[litellm]

@@ -1,22 +1,31 @@
-# Remarkable RSS
+# Agent News - A remarkable RSS feed powered by agentic AI
+
+![Image Representation](./assets/AgenticNews.png)
 
 ## Overview
-`remarkable-rss.py` is a Python script designed to fetch and display RSS feeds in a format suitable for the Remarkable e-reader. It enables users to stay updated on various content by converting RSS feeds into a compatible document format and sending it strait into the google drive, so that users can read it on remarkable.
+
+`remarkable-rss.py` is an Python script that efficiently fetches news from any RSS website, processes the information to read, analyze, and summarize the content for human readers. It seamlessly converts the summarized news into a PDF format, which is directly sent to the Remarkable device. Users can schedule this script to run regularly, ensuring they stay updated on diverse topics by transforming RSS feeds into a compatible document format and effortlessly uploading it to Google Drive for easy access on their Remarkable device.
 
 ## Requirements
+
 - Python 3.x
 - Feedparser library
 - Any additional libraries required for rendering or converting formats
 
 ## Installation
+
 1. Clone the repository:
 2. Run `pip install -r requirements.txt`
 3. Provide the RSS-Feed link inside the code.
-4. Save the .json location and folder ID in a `.env` file as 
+4. Save the .json location and folder ID in a `.env` file as
+
 ```
  SERVICE_ACCOUNT_FILE = ''
- FOLDER_ID = '' 
- ```
+ FOLDER_ID = ''
+ OPENAI_API_KEY = ''
+ MODEL_ID = ''
+```
+
 4. Execute and check the code if it is generating a .txt file and .pdf file.
 
 ## Setting Up Google Services Account and Enabling Google Drive API
@@ -61,8 +70,8 @@
 8. In the "Add arguments (optional)" box, enter the path to your script (e.g., `C:\path\to\remarkable-rss.py`).
 9. Click "Next," review your settings, and then click "Finish" to create the task.
 
-
 ### Thanks
+
 Thanks to Remarkable for building such and amazing device.
 
 [![rm2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2)
